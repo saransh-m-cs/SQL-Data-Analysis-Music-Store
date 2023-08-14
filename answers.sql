@@ -1,3 +1,24 @@
+--Creating New Database: music_db
+
+-- DROP DATABASE IF EXISTS music_db;
+
+CREATE DATABASE music_db
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+
+USE music_db;
+
+
+-- HERE I HAVE PUT SOME QUESTIONS AND ANSWERED THEM AS ANALYSIS OF PROJECT
+
+
 /* Q1: Who is the senior most employee based on job title? */
 
 
